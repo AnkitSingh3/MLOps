@@ -18,7 +18,7 @@ Please enter below parameters to get a prediction.
 Age = st.number_input("Age (customer age)", min_value=18, max_value=61, value=35)
 TypeofContact = st.selectbox("Type Of Contact", ["Self Enquiry", "Company Invited"])
 CityTier = st.selectbox("City Tier (customer city classification tier)", [1, 2, 3])
-DurationOfPitch = st.number_input("Duration Of Pitch (duration of sales pitch in minutes)", min_value=5.0, max_value=127.0,value=15)
+DurationOfPitch = st.number_input("Duration Of Pitch (duration of sales pitch in minutes)", min_value=5.0, max_value=127.0,value=15.0)
 Occupation = st.selectbox("Occupation", ["Salaried", "Small Business", "Large Business", "Free Lancer"])
 Gender = st.selectbox("Gender", ["Male", "Female"])
 NumberOfPersonVisiting = st.number_input("Number Of Persons Visiting (number of people visiting)", min_value=1, max_value=5,value=2)
